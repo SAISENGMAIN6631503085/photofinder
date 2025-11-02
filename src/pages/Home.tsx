@@ -38,8 +38,12 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-primary py-20 md:py-32">
-        <div className="absolute inset-0 bg-gradient-overlay" />
+      <section className="relative overflow-hidden py-20 md:py-32">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url('/background.jpg')` }}
+        />
+        <div className="absolute inset-0 bg-black/50" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center text-white animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">

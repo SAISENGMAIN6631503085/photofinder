@@ -67,8 +67,8 @@ const SearchByFace = () => {
                 className="border-2 border-dashed border-border rounded-2xl p-12 cursor-pointer hover:border-primary transition-colors group"
               >
                 <div className="flex justify-center mb-6">
-                  <div className="h-20 w-20 rounded-2xl bg-gradient-primary flex items-center justify-center group-hover:scale-110 transition-transform">
-                    <Upload className="h-10 w-10 text-primary-foreground" />
+                  <div className="h-20 w-20 rounded-2xl bg-black flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <Upload className="h-10 w-10 text-white" />
                   </div>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Upload Your Photo</h3>
